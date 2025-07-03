@@ -15,7 +15,7 @@ export default function Home() {
         
         <div className="relative mt-50">
           <h1 className="text-4xl font-bold tracking-light">
-            Hi! I'm <span className="text-indigo-600 brightness-160">Mai</span>
+            Hi! I{"'"}m <span className="text-indigo-600 brightness-160">Mai</span>
             <span className="block text-violet-500 h-[1.5em] mt-2">
               <TypewriterText />
             </span>

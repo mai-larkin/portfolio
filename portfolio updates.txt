@@ -1,0 +1,12 @@
+Checklist of features to add!
+
+29.06.25
+- Correct syntax highlighting for code panel (DONE)
+- Different languages (javascript + react usage, c++, java) (DONE)
+- Make work on phone (DONE)
+- Add sound effects for buttons
+- Add light mode
+- Navbar
+
+
+ 

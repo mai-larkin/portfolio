@@ -30,7 +30,7 @@ int main() {
   return (
     <div className="bg-[#1E1E2E] text-white rounded-md shadow-lg border border-gray-700">
       {/* Top bar with buttons and file path */}
-      <div className="bg-[#181825] px-4 py-2 flex items-center justify-between text-sm border-b border-gray-700 relative">
+      <div className="bg-[#181825] px-4 py-2 flex items-center justify-between text-[0.65rem] sm:text-[0.9rem] border-b border-gray-700 relative">
         <div className="flex gap-2 absolute left-3 top-1/2 -translate-y-1/2">
           <span className="w-3 h-3 rounded-full bg-gray-600 hover:bg-red-500 transition-colors"></span>
           <span className="w-3 h-3 rounded-full bg-gray-600 hover:bg-yellow-400 transition-colors"></span>
@@ -41,7 +41,7 @@ int main() {
           {language === 'cpp' && '..\\mai\\projects\\Welcome.cpp'}
           {language === 'js' && '..\\mai\\projects\\welcome.js'}
         </span>
-        <div className="flex gap-2 absolute right-4 top-1/2 -translate-y-1/2">
+        <div className="flex gap-0.5 sm:gap-2 absolute right-4 top-1/2 -translate-y-1/2">
           {[
   { id: 'java', label: 'Java' },
   { id: 'cpp', label: 'C++' },
@@ -63,14 +63,13 @@ int main() {
       </div>
 
       {/* Code block */}
-      <div className="p-4">
+      <div className="p-2 sm:p-4 text-[0.71rem] sm:text-base overflow-x-auto">
         <SyntaxHighlighter
           language={language === 'cpp' ? 'cpp' : language}
           style={dracula}
           showLineNumbers
           customStyle={{
             background: 'transparent',
-            fontSize: '0.875rem',
             padding: '0',
             margin: '0',
           }}

@@ -18,23 +18,20 @@ export default function Home() {
       <div className="relative z-10">
 
           
-          <div className="min-h-screen flex items-center pt-18 pb-18 pl-10 pr-10">
+          <div className="min-h-screen flex items-center pt-15 pb-15 pl-10 pr-10">
             <div className="flex flex-col justify-center h-full mx-auto max-w-[58rem]">
 
               <h2 className="text-[0.8rem] lg:text-[1.4rem] pb-3 font-semibold brightness-170 bg-gradient-to-tr from-indigo-600 to-indigo-800 bg-clip-text text-transparent font-tiktok tracking-tight">Welcome to my portfolio.</h2>
 
               {/*  MAIN TEXT */}
-              <h1 className="xl:text-[4.5rem] lg:text-[4.2rem] md:text-5xl sm:text-4xl text-[1.7rem] font-bold tracking-light font-tiktok tracking-tight">
+              <h1 className="xl:text-[4.5rem] lg:text-[4.2rem] md:text-5xl sm:text-4xl text-[1.6rem] font-bold tracking-light font-tiktok tracking-tight">
                 Hi! <span className=""/> I{"'"}m <span className="bg-gradient-to-tr brightness-170 from-indigo-600 to-indigo-800 bg-clip-text text-transparent">Mai</span>, a
                 <div className="block h-[1.5em] mt-3">
                   <TypewriterText />
                 </div>
               </h1>
 
-              {/* Paragraph */}
-              <p className=" mt-4 text-base sm:text-xl lg:text-[1.3rem] text-gray-400 leading-5.5 sm:leading-8 font-lato">
-                Welcome to my portfolio. I am a second year CompSci major at VUW, minoring in both AI and Data Science. Lots of filler text here. This text is just here until I think of something better to write. Yes, I could have used Loren Impsum, but I wanted to have something better to look at.
-              </p>
+              
               
               {/* Buttons */}
               <div className="flex mt-10 gap-7 text-base sm:text-lg">
@@ -48,7 +45,7 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="pt-10">
+              <div className="pt-10 min-w-[21rem] sm:min-w-[35rem] md:min-w-[42rem] lg:min-w-[54rem] xl:min-w-[58rem]">
                 <CodePanel/>
               </div>
 

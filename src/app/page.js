@@ -34,7 +34,7 @@ export default function Home() {
               
               
               {/* Buttons */}
-              <div className="flex mt-10 gap-7 text-base sm:text-lg">
+              <div className="flex mt-5 gap-7 text-base sm:text-lg">
                 <a href="/resume_mai_larkin.pdf" download className="inline-flex px-6 py-3 rounded-lg bg-gradient-to-tr from-[#7B09FE] to-indigo-600 text-white font-medium hover:scale-105 transition-transform duration-200">
                   <span className="pr-2">Resume</span>
                   <ArrowDownTrayIcon className="mt-0.5 w-5 h-5" />

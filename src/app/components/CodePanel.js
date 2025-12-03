@@ -32,9 +32,9 @@ int main() {
       {/* Top bar with buttons and file path */}
       <div className="bg-[#181825] px-4 py-2 flex items-center justify-between text-[0.65rem] sm:text-[0.9rem] border-b border-gray-700 relative">
         <div className="flex gap-2 absolute left-3 top-1/2 -translate-y-1/2">
-          <span className="w-2 h-2 xs:w-3 xs:h-3 rounded-full bg-gray-600 hover:bg-red-500 transition-colors"></span>
-          <span className="w-2 h-2 xs:w-3 xs:h-3 rounded-full bg-gray-600 hover:bg-yellow-400 transition-colors"></span>
-          <span className="w-2 h-2 xs:w-3 xs:h-3 rounded-full bg-gray-600 hover:bg-green-500 transition-colors"></span>
+          <span className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-gray-600 hover:bg-red-500 transition-colors"></span>
+          <span className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-gray-600 hover:bg-yellow-400 transition-colors"></span>
+          <span className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-gray-600 hover:bg-green-500 transition-colors"></span>
         </div>
         <span className="mx-auto text-gray-400">
           {language === 'java' && '..\\mai\\projects\\Welcome.java'}

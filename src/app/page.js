@@ -21,11 +21,11 @@ export default function Home() {
           <div className="min-h-screen flex items-center small-screen-offset pt-12 pb-12">
             <div className="flex flex-col justify-center h-full">
 
-              <h2 className="text-[0.8rem] lg:text-[1.4rem] pb-3 font-semibold text-indigo-600 brightness-160 font-tiktok tracking-tight">Welcome to my portfolio.</h2>
+              <h2 className="text-[0.8rem] lg:text-[1.4rem] pb-3 font-semibold brightness-170 bg-gradient-to-tr from-indigo-600 to-indigo-800 bg-clip-text text-transparent font-tiktok tracking-tight">Welcome to my portfolio.</h2>
 
               <h1 className="lg:text-[4.5rem] md:text-5xl text-4xl font-bold tracking-light font-tiktok tracking-tight">
-                Hi! <span className=""/> I{"'"}m <span className="text-indigo-600 brightness-160">Mai</span>, a
-                <div className="block h-[1.5em] mt-3">
+                Hi! <span className=""/> I{"'"}m <span className="bg-gradient-to-tr brightness-170 from-indigo-600 to-indigo-800 bg-clip-text text-transparent">Mai</span>, a
+                <div className="block h-[1.5em] mt-4">
                   <TypewriterText />
                 </div>
               </h1>
@@ -35,12 +35,12 @@ export default function Home() {
               </p>
 
               <div className="flex mt-10 gap-7 text-base sm:text-lg">
-                <a href="/resume_mai_larkin.pdf" download className="inline-flex px-6 py-3 rounded-lg bg-[#7B09FE] text-white font-medium hover:scale-105 transition-transform duration-200">
+                <a href="/resume_mai_larkin.pdf" download className="inline-flex px-6 py-3 rounded-lg bg-gradient-to-tr from-[#7B09FE] to-indigo-600 text-white font-medium hover:scale-105 transition-transform duration-200">
                   <span className="pr-2">Resume</span>
                   <ArrowDownTrayIcon className="mt-0.5 w-5 h-5" />
                 </a>
 
-                <a href="mailto:mailarkin1@gmail.com" className="px-6 py-3 rounded-lg bg-gray-900 font-medium hover:scale-105 transition-transform duration-200">
+                <a href="mailto:mailarkin1@gmail.com" className="font-medium px-6 py-3 rounded-lg bg-gray-900 hover:scale-105 transition-transform duration-200">
                   Email Me
                 </a>
               </div>

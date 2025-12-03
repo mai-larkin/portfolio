@@ -63,7 +63,7 @@ int main() {
       </div>
 
       {/* Code block */}
-      <div className="p-2 sm:p-4 text-[0.71rem] sm:text-base overflow-x-auto">
+      <div className="p-2 sm:p-4 text-[0.82rem] sm:text-base overflow-x-auto">
         <SyntaxHighlighter
           language={language === 'cpp' ? 'cpp' : language}
           style={dracula}

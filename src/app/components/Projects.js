@@ -49,8 +49,13 @@ const Projects = () => {
 
                             <div className="bg-[#181825] rounded-b-md pb-5">
                                 <div className="flex flex-wrap rounded-full gap-2 mb-2 p-6">
-                                    {project.tags.map((tag) => (
-                                        <span className="px-3 py-1 text-xs rounded-full border border-gray-700">{tag}</span>
+                                    {project.tags.map((tag, index) => (
+                                        <span
+                                            key={index} // <-- Add this
+                                            className="px-3 py-1 text-xs rounded-full border border-gray-700"
+                                        >
+                                            {tag}
+                                        </span>
                                     ))}
                                 </div>
 

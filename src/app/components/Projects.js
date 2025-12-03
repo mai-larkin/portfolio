@@ -33,7 +33,7 @@ const Projects = () => {
 
 
     return (
-        <section id="projects" className="relative pt-10 text-center">
+        <section id="projects" className="relative pt-20 text-center">
             <div className="container max-w-5xl mx-auto">
 
                 <h2 className="text-[2.5rem] font-bold mb-9">Featured <span className="text-indigo-600 brightness-160">Projects</span></h2>

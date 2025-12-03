@@ -38,7 +38,7 @@ const Projects = () => {
 
                 <h2 className="text-[2.5rem] font-bold mb-9">Featured <span className="text-indigo-600 brightness-160">Projects</span></h2>
 
-                <p className="max-w-3xl mx-auto">Here are some of the recent small projects that I've been working on over the summer! Feel free to check them out</p>
+                <p className="max-w-3xl mx-auto">Here are some of the recent small projects that I have been working on over the summer! Feel free to check them out</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto mt-10 mb-20">
                     {project.map((project, key) => (

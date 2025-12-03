@@ -31,7 +31,7 @@ export default function Home() {
               </h1>
 
               <p className="mt-4 text-base sm:text-xl lg:text-[1.3rem] text-gray-400 leading-5.5 sm:leading-8 font-lato">
-                Welcome to my portfolio. I am a second year CompSci major at VUW, minoring in both AI and Data Science. Lots of filler text here. This text is just here until I think of something better to write. Yes, I could've used Loren Impsum, but I wanted to have something better to look at.
+                Welcome to my portfolio. I am a second year CompSci major at VUW, minoring in both AI and Data Science. Lots of filler text here. This text is just here until I think of something better to write. Yes, I could have used Loren Impsum, but I wanted to have something better to look at.
               </p>
 
               <div className="flex mt-10 gap-7 text-base sm:text-lg">
